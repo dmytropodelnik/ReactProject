@@ -1,0 +1,84 @@
+{
+  "name": "mm-office",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/node": "^16.11.47",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "bootstrap": "^5.3.0",
+    "buffer": "^6.0.3",
+    "ethers": "^5.6.9",
+    "rc-slider": "^10.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-number-format": "^5.0.1",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "redux": "^4.2.0",
+    "redux-typescript": "^1.2.1",
+    "timespan": "^2.3.0",
+    "typescript": "^4.7.4",
+    "use-react-router-breadcrumbs": "^4.0.1",
+    "victory": "^36.6.8",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.11",
+    "@jest/globals": "^29.6.4",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/jest": "^29.5.4",
+    "@types/react-table": "^7.7.12",
+    "assert": "^2.0.0",
+    "autoprefixer": "^10.4.8",
+    "babel-jest": "^29.6.4",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "jest": "^27.5.1",
+    "os-browserify": "^0.3.0",
+    "postcss": "^8.4.14",
+    "prettier": "^3.0.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "react-test-renderer": "^18.2.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.1.8",
+    "url": "^0.11.0"
+  }
+}
